@@ -6,7 +6,7 @@ function TrendingGames({ gameList }) {
   });
 
   return (
-    <div className=" mt-5 hidden md:block">
+    <div className=" mt-5 md:block">
       <h2 className="font-bold text-[30px]  dark:text-white mb-3">Trending Games</h2>
       <div className="md:grid md:grid-cols-3 gap-4 lg:grid-cols-4 ">
         {gameList.map(
