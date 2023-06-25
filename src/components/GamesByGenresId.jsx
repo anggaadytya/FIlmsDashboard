@@ -8,7 +8,7 @@ function GamesByGenresId({ gameList1, selctedGenresName }) {
   }, []);
 
   return (
-    <div className="mt-10 hidden md:block">
+    <div className="mt-10  md:block">
       <h2 className="font-bold text-[30px]  dark:text-white mt-10 mb-3">
         {selctedGenresName} Games
       </h2>
